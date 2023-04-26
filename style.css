@@ -1,0 +1,144 @@
+body{
+    background-color:  #684BB1;
+    background-image:url(bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.title{
+    width: 160px;
+    height: 35px;
+    padding:40px;
+}
+
+.illustration{
+    width: 296px;
+    height: 209px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: white;
+Width:280px;
+Height:72px;
+margin:auto;
+margin-top: 50px;
+}
+
+p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+Width:304px;
+Height:120px;
+margin:auto;
+}
+
+.button{
+width: 200px;
+height: 40px;
+background-color: #FFFFFF;
+border-radius: 20px;
+box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+margin: auto;
+margin-top: 30px;
+cursor: pointer;
+}
+
+h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+color: #684BB1;
+padding: 10px;
+}
+
+.fb{
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+@media screen and (min-width:720px){
+    .title{
+        width: 250px;
+        height: 60px;
+        padding: 70px;
+    }
+
+    .illustration{
+        width: 696px;
+        height: 493px;
+        margin-left: 80px;
+        margin-top: -10px;
+    }
+
+    body{
+        background-image: url(bg-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .text{
+        margin-left: 835px;
+    margin-top: -510px;
+    }
+
+    h1{
+     font-size: 40px;
+    width: 487px;
+    height: 120px;
+    line-height: 60px;
+    }
+    
+    p{
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+width: 520px;
+height: 81px;
+margin-top: 15px;
+    }
+
+    .button{
+        width: 200px;
+        height: 56px;
+        border-radius: 28px;
+        
+    }
+
+    h2{
+        padding: 15px;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+width: 73px;
+height: 27px;
+text-align: center;
+margin:auto;
+    }
+
+    .fb{
+        margin-left: 1300px;
+    margin-top: 130px;
+}
+    }
+}
